@@ -23,7 +23,7 @@ packages: echo.packages
 	brew bundle
 
 shell: echo.shell # remove this if you're on a new laptop and don't need to switch from bash to zsh
-	chsh -s /bin/zsh
+	/usr/local/opt/fzf/install
 
 languages: echo.languages
 	asdf install
